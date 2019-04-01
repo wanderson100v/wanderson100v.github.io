@@ -1,0 +1,76 @@
+@font-face{
+    font-family: Indie-Flower;
+    src : url("../res/font/IndieFlower.ttf");
+}
+
+body{
+    font-family: sans-serif;
+}
+
+p{
+    font-size : 20px;
+    margin-top: 10px;
+}
+
+h2{
+    font-family:  Indie-Flower, cursive;
+    margin-bottom: 5px;
+    font-size: 23px;
+}
+
+/*---------------------header */
+header {
+    background-color : #111;
+    color : rgb(9, 210, 97);
+    font-size: 48px;
+    overflow: hidden;
+}   
+
+header div#text{
+    text-align: right;
+    float: right;
+    margin: 45px 10px 0px 0px;
+    font-family: 'VT323', monospace;
+}
+
+#red-shadown{
+    color : rgb(255,0,0);
+    text-shadow: 4px 6px 1px rgb(150,10,35)
+}
+
+/* img replacemente*/
+header h1#banner-img{
+    width: 800px;
+    height: 174px;
+    background-image: url("../res/img/banner.jpg") ;
+    float: left
+}
+
+h1#autor-img{
+    width: 80px;
+    height: 80px;
+    margin: 40px 10px 0px 0px;
+    background-image: url("../res/img/autor-ico.png") ;
+    float: right
+}
+header h1 span{
+	display: none;
+}
+/*---------------------section */
+section{
+    padding: 40px;
+}
+
+section h2{
+    margin-top:10px;
+    padding-top: 5px;
+    border-top: 2px solid rgb(51, 51, 51, 0.5);
+
+}
+
+/*---------------------footer */
+footer{
+    border-top: 3px solid black;
+    padding: 20px 0px 20px 0px;
+    text-align: center;
+}

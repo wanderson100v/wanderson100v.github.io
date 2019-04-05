@@ -62,17 +62,17 @@ nav{
     overflow: hidden;
 }
 
-ul#menu{
+nav > ul{
     margin : 5px 30px 5px 0px;
     float: right;
     font-size: 24px;
 }
 
-ul#menu li > a{
+nav > ul > li > a{
     text-decoration: none;
 }
 
-ul#menu li{
+nav > ul > li{
     display: inline-block;
     padding: 5px;
     margin: 0px;
@@ -83,7 +83,7 @@ ul#menu li{
     transition-duration: 0.5s;
 }
 
-ul#menu li:hover{
+nav > ul > li:hover{
     background-color: black;
     color: white;
 }
